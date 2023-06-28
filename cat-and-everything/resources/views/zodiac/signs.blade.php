@@ -40,10 +40,10 @@ how much we dearly love our cats with all their quirky ways.</p>
 <section class="py-5 text-center container">
 <div class="row">
 @foreach($signs as $sign)
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
+  <div class="col-md-3 mb-4" >
+    <div class="card h-100" style="background-color: #ffd2d2;">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
-    <div class="card-body" style="background-color: #fcdf87;">
+    <div class="card-body" >
       <h5 class="card-title"><x-sign-preview-card :sign="$sign" /></h5>
         <p class="card-text">{{$sign->date}}</p>
           <ul class="list-group list-group-flush">
