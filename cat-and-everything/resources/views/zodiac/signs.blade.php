@@ -1,11 +1,11 @@
 @extends('layouts.layout')
 
 @section('signs')
-<main class="home">
-<section class="home py-5 text-center container">
-<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #F1DEC9;">
-    <div class="col-lg-9 col-md-8 mx-auto">
-    <h1 class="fw-light display-4 fst-italic">Cat Astrology</h1>
+<main class="page1">
+<section class="py-5 text-center container" >
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #fef2cf; " >
+    <div class="col-lg-9 col-md-8 mx-auto" >
+    <h1 class="fw-light" style="font-family: 'Gagalin', sans-serif;">Cat Astrology</h1>
       <p class="lead my-3" style="color: #2C3333;">
         Just like us, every cat is born under an astrological sun sign
 which is determined by their date of birth. If you know the
@@ -44,14 +44,14 @@ how much we dearly love our cats with all their quirky ways.</p>
     <div class="card h-100" style="background-color: #ffd2d2;">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
     <div class="card-body" >
-      <h5 class="card-title"><x-sign-preview-card :sign="$sign" /></h5>
+      <h5 class="card-title" id="sign"><x-sign-preview-card :sign="$sign" /></h5>
         <p class="card-text">{{$sign->date}}</p>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{$sign->sign}}</li>
-            <li class="list-group-item">{{$sign->depicted_by}}</li>
-            <li class="list-group-item">{{$sign->ruled_by}}</li>
-            <li class="list-group-item">{{$sign->lucky_day}}</li>
-            <li class="list-group-item">{{$sign->weak_spot}}</li>
+            <li class="list-group-item" id="list">{{$sign->sign}}</li>
+            <li class="list-group-item" id="list">{{$sign->depicted_by}}</li>
+            <li class="list-group-item" id="list">{{$sign->ruled_by}}</li>
+            <li class="list-group-item" id="list">{{$sign->lucky_day}}</li>
+            <!-- <li class="list-group-item" id="list">{{$sign->weak_spot}}</li> -->
           </ul>
     </div>
     </div>
@@ -60,12 +60,11 @@ how much we dearly love our cats with all their quirky ways.</p>
 </div>
 </section>
 
-
 <section class="py-5 text-center container">
-<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #F1DEC9;">
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #fef2cf;" >
     <div class="col-lg-9 col-md-8 mx-auto">
     
-<h1 class="fw-light display-4 fst-italic">BIRTH DATE</h1>
+<h1 class="fw-light " style="font-family: 'Gagalin', sans-serif;">BIRTH DATE</h1>
       <p class="lead my-3" style="color: #2C3333;">
   In an ideal world, you'd know the date, time and place
   of your cat's birth, but just having their birth date will tell
