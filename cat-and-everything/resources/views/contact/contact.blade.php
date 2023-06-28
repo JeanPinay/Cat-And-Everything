@@ -1,6 +1,6 @@
 @extends ('layouts.layout')
 @section ('contact')
-
+<main class="page1">
 <section class="py-5 text-center container">
 <div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #F1DEC9;">
     <div class="col-lg-9 col-md-8 mx-auto">
@@ -26,4 +26,6 @@
         </form>
     </div>
 </div>
+</section>
+</main>
 @endsection

@@ -13,9 +13,7 @@
     min-height: 100vh;
     position: relative;
 }  
-.nav-link{
-    color: aliceblue;
-}
+
 #description{
     font-family: 'Montserrat', sans-serif;
     /* text-shadow: 2px 2px 4px #000000; */
@@ -42,7 +40,7 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 .custom-btn {
     background-color: #6E85B2;
     border: none;
-    color: #fff;
+    color: #0d0c0c;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
@@ -53,6 +51,19 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 .custom-btn:hover {
     background-color: #4B6594;
 }
+
+/* //buttons */
+.btn-primary {
+    background-color: #80728d;
+    font-family: 'Gagalin', sans-serif;
+    transition: transform 0.3s; /* Add transition for smooth animation */
+
+}
+
+.btn-primary:hover {
+    transform: scale(1.1); 
+}
+
 .card {
     border-radius: 150px;
 }
@@ -64,26 +75,30 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 }
 
 
-.navbar-brand {
-    font-weight: bold;
-    color: #fff;
-}
-
 .nav-item {
     margin-right: 10px;
+    color: #302d2d;
+
 }
 
-.nav-link {
+.nav-link, #text1 {
+    color: #302d2d;
+}
+#text{
+    background-color: #C9A7EB; 
+    font-family: 'Gagalin', sans-serif; 
+    border-radius: 50px;
+    border: #0d0c0c;
+    color: #302d2d;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+
+/* .nav-link {
     color: #fff;
-}
-
-.nav-item {
-    margin-right: 10px;
-}
-
-.nav-link {
-    color: #fff;
-}
+} */
 
 /* Image homepage */
 .image-wrapper {
@@ -103,6 +118,9 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 }
 
 .rounded-sides-container {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
     border-radius: 50px;
     overflow: hidden;
     -webkit-box-shadow: 0px 3px 11px 5px rgba(166,164,165,1);
@@ -110,16 +128,34 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
     box-shadow: 0px 3px 11px 5px rgba(166,164,165,1);
 }
 .rounded-sides {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #ffd2d2;
     padding: 20px;
 }
 .card-title{
     font-family: 'Gagalin', sans-serif;
+    font-size: 25px;
 }
 .card-text{
     font-family: 'Nunito Sans', sans-serif;
 }
+
+
+
 #adopt{
     font-family: 'Roboto', sans-serif;
 
 }
+/* //header */
+.nav-link {
+    background-color: #FFB4B4;
+    font-family: 'Gagalin', sans-serif;
+    margin-right: 10px; /* Adjust the value as needed */
+}
+#footer{
+    /* background-color: #C9A7EB; */
+    background-color: rgba(252,223,135,255);
+}
+

@@ -15,7 +15,7 @@
 
 <main class="home">
   <section class="py-5 text-center container">
-    <h2 style="margin-bottom: 50px; margin-top: 50px; font-family: 'Gagalin', sans-serif;">Feel free to explore and discover our website</h2>
+    <h2 style="margin-bottom: 60px; margin-top: 40px; font-family: 'Gagalin', sans-serif; font-size:40px;">Feel free to explore and discover our website</h2>
     <div class="row">
       <div class="col-md-6 col-lg-3 mb-4">
         <div class="rounded-sides-container">
@@ -25,8 +25,7 @@
               Answers all the burning questions you may have about your current or future cat/pet.
               Fun and revealing!
             </p>
-            <a href="{{ route('signs') }}" class="btn btn-primary" style="background-color: #80728d; font-family: 'Gagalin', sans-serif; border-radius: 50px;">Zodiac Sign</a>
-
+            <a href="{{ route('signs') }}" class="btn btn-primary" id="text" >Zodiac Sign</a>
           </div>
         </div>
       </div>
@@ -39,7 +38,7 @@
                 You can do that here without being judged. This website is made for you to show love to fellow cat lover, let's help each other.
                 Don't forget to register first!
             </p>
-            <a href="#" class="btn btn-primary" style="background-color: #80728d; font-family: 'Gagalin', sans-serif; border-radius: 50px;">Click here</a>
+            <a href="#" class="btn btn-primary" id="text" >Click here</a>
           </div>
         </div>
       </div>
@@ -52,7 +51,7 @@
             <p class="card-text">We are selling things for your cat and you! Explore our shop and discover a world of feline delights, 
               where you can indulge your beloved pet with high-quality items designed to bring them joy and comfort. Free delivery around Antwerp.
             </p>
-            <a href="#" class="btn btn-primary" style="background-color: #80728d; font-family: 'Gagalin', sans-serif;border-radius: 50px;">Shop now</a>
+            <a href="#" class="btn btn-primary" id="text" >Shop now</a>
           </div>
         </div>
       </div>
@@ -65,7 +64,7 @@
             <p class="card-text">Going on a vacation? We have a solution for you. Leave your beloved feline in trusted hands with our professional cat sitting services,
               providing attentive care and companionship while you're away.
             </p>
-            <a href="#" class="btn btn-primary" style="background-color: #80728d;font-family: 'Gagalin', sans-serif;border-radius: 50px;">Read More</a>
+            <a href="#" class="btn btn-primary" id="text">Read More</a>
           </div>
         </div>
       </div>
@@ -88,7 +87,7 @@
         promote the importance of animal adoption. It brings me joy to see these cats find their forever homes, 
         knowing I played a part in their journey. Fostering allows me to make a meaningful difference in the lives of these feline companions 
         while advocating for the importance of adoption over supporting pet stores or breeders.</p>
-        <a href="#" class="btn btn-primary" style="background-color: #80728d;font-family: 'Gagalin', sans-serif;border-radius: 50px;">Check it here</a>
+        <a href="#" class="btn btn-primary" id="text">Check it here</a>
   </div>
 </div>
 </section>
