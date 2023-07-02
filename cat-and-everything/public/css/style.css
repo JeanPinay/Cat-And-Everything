@@ -165,4 +165,128 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
     color: #302d2d;
 }
 
+/* ================Contact=================== */
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 2.5em;
+    padding: 30px;
+    width: 300px;
+    height: 350px;
+}
+
+.button {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background: #C9A7EB;
+    color: black;
+    padding: 0.7em 5.5em;
+    display: flex;
+    align-items: center;
+    border: 2px solid #66da4300;
+    border-radius: 5em;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    border: 2px solid #C9A7EB;
+    background: #514a4a00;
+    /* color: #ff5900; */
+  }
+  
+  .button:active {
+    border: 2px solid #66da4300;
+    background: #ff5900;
+    color: black;
+  }
+  
+  .input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #ff5900;
+    outline: none;
+    background-color: transparent;
+    color: #ff5900;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+  }
+  
+  .input:focus {
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #ff5900;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .input::placeholder {
+    color: #2e2520;
+  }
+  
+  .textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc(100% - 10px);
+    padding: 8px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #ff5900;
+    outline: none;
+    background-color: transparent;
+    color: #ff5900;
+}
+
+.textarea::placeholder {
+    color: #2e2520;
+}
+
+.textarea:focus {
+    background-color: transparent;
+    color: rgb(39, 30, 30);
+}
+
+/* =========Login================= */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
 
