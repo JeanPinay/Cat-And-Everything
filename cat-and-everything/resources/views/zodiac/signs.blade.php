@@ -38,27 +38,29 @@ how much we dearly love our cats with all their quirky ways.</p>
 
 
 <section class="py-5 text-center container">
-<div class="row">
-@foreach($signs as $sign)
-  <div class="col-md-3 mb-4" >
-    <div class="card h-100" style="background-color: #ffd2d2;">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
-    <div class="card-body" >
-      <h5 class="card-title" id="sign"><x-sign-preview-card :sign="$sign" /></h5>
-        <p class="card-text">{{$sign->date}}</p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item" id="list">{{$sign->sign}}</li>
-            <li class="list-group-item" id="list">{{$sign->depicted_by}}</li>
-            <li class="list-group-item" id="list">{{$sign->ruled_by}}</li>
-            <li class="list-group-item" id="list">{{$sign->lucky_day}}</li>
-            <!-- <li class="list-group-item" id="list">{{$sign->weak_spot}}</li> -->
-          </ul>
+    <div class="row">
+        @foreach($signs as $sign)
+        <div class="col-md-3 mb-4">
+            <div class="card h-100" id="zodiac" style="background-color: #ffd2d2;">
+                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                <div class="card-body">
+                    <h5 class="card-title"><x-sign-preview-card :sign="$sign" /></h5>
+                    <p class="card-text">{{$sign->date}}</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" id="list">{{$sign->sign}}</li>
+                        <li class="list-group-item" id="list">{{$sign->depicted_by}}</li>
+                        <li class="list-group-item" id="list">{{$sign->ruled_by}}</li>
+                        <li class="list-group-item" id="list">{{$sign->lucky_day}}</li>
+                        <!-- <li class="list-group-item" id="list">{{$sign->weak_spot}}</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        @endforeach
     </div>
-    </div>
-  </div>
-@endforeach
-</div>
 </section>
+
+
 
 <section class="py-5 text-center container">
 <div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #fef2cf;" >

@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/gagalin');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .home {
     background-color: #fef2cf;
 }
@@ -96,6 +102,7 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 }
 
 
+
 /* .nav-link {
     color: #fff;
 } */
@@ -137,6 +144,7 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 .card-title{
     font-family: 'Gagalin', sans-serif;
     font-size: 25px;
+    color: #0d0c0c;
 }
 .card-text{
     font-family: 'Nunito Sans', sans-serif;
@@ -157,12 +165,16 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 #footer{
     /* background-color: #C9A7EB; */
     background-color: rgba(252,223,135,255);
+    
 }
 #list{
     background-color:#fef2cf;
 }
 #sign{
     color: #302d2d;
+}
+footer{
+    flex-shrink: 0;
 }
 
 /* ================Contact=================== */
@@ -252,9 +264,12 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 }
 
 /* =========Login================= */
+
 .login-form {
     max-width: 400px;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -279,7 +294,7 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 .form-group button {
     width: 100%;
     padding: 8px;
-    background-color: #4CAF50;
+    background-color: #C9A7EB;
     color: white;
     border: none;
     border-radius: 3px;
@@ -287,6 +302,12 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 }
 
 .form-group button:hover {
-    background-color: #45a049;
+    background-color:#5a4812; ;
 }
 
+/* ============Zodiac============= */
+#zodiac{
+    -webkit-box-shadow: 0px 3px 11px 5px rgba(166,164,165,1);
+    -moz-box-shadow: 0px 3px 11px 5px rgba(166,164,165,1);
+    box-shadow: 0px 3px 11px 5px rgba(166,164,165,1);
+}

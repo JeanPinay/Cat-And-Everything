@@ -39,8 +39,7 @@
 @yield ('signs')
 @yield ('contact')
 @yield ('privacy')
-@yield ('flex')
-@yield ('flexSubmitted')
+@yield ('forumForm')
 @yield ('cats')
 @include ('layouts.footer')
 </body>
