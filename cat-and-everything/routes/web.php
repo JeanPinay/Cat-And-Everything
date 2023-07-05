@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\SignController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ForumController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\PrivacyPolicyController;
 
@@ -32,11 +33,13 @@ Route::get('/privacy-policy', [PrivacyPolicyController::class,'view'])->name('pr
 Route::get('/signs',[SignController::class,'show'])->name('signs');
 Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
 
+//Route Forum
+Route::get('/forumForm', [ForumController::class, 'showForumForm'])->name('forum-form');
 
+
+
+//header
 Route::post('/logout', [LogoutController::class, 'perform'])->name('logout-route');
-
-
-
 Auth::routes();
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
