@@ -40,6 +40,8 @@
 @yield ('contact')
 @yield ('privacy')
 @yield ('forumForm')
+@yield ('forums')
+@yield ('show')
 @yield ('cats')
 @include ('layouts.footer')
 </body>

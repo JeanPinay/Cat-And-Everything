@@ -4,9 +4,10 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\SignController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\ForumController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\ForumController;
+use App\Http\Controllers\CommentController;
 
 
 
@@ -34,8 +35,15 @@ Route::get('/signs',[SignController::class,'show'])->name('signs');
 Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
 
 //Route Forum
-Route::get('/forumForm', [ForumController::class, 'showForumForm'])->name('forum-form');
+Route::middleware(['web', 'auth'])->group(function () {
+    // Routes that require authentication
 
+Route::get('/forums', [ForumController::class, 'index'])->name('forums.index');
+Route::get('/forums/create', [ForumController::class, 'create'])->name('forums.create');
+Route::post('/forums', [ForumController::class, 'store'])->name('forums.store');
+Route::get('/forums/{forum}', [ForumController::class, 'show'])->name('forums.show');
+});
+Route::post('/forums/{forum}/comments', [CommentController::class, 'store'])->name('comments.store');
 
 
 //header

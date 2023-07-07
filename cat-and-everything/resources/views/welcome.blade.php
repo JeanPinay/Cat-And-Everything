@@ -38,7 +38,7 @@
                 You can do that here without being judged. This website is made for you to show love to fellow cat lover, let's help each other.
                 Don't forget to register first!
             </p>
-            <a href="#" class="btn btn-primary" id="text" >Click here</a>
+            <a href="{{ route('forums.index') }}" class="btn btn-primary" id="text" >Click here</a>
           </div>
         </div>
       </div>
