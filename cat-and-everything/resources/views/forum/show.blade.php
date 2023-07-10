@@ -2,7 +2,7 @@
 
 @section('show')
 <main class="home">
-<section class="py-5 text-center container">
+<section class="py-5 text-center container"> 
 @if (session('success'))
     <div class="card mb-4">
         <div class="card-body">
@@ -11,10 +11,11 @@
     </div>
 @endif
 
-    <!-- <div class="container">  -->
+
+
         <h1>Forum Details</h1>
 
-        <div class="card" style="margin-top:60px ;">
+        <div class="card" id="forumCards" style="margin-top:60px ;">
             <div class="card-body">
                 <h5 class="card-title">{{ $forum->title }}</h5>
                 <p class="card-text">{{ $forum->description }}</p>
@@ -26,7 +27,7 @@
 
         @if ($comments)
             @foreach ($comments as $comment)
-                <div class="card mb-4">
+                <div class="card mb-4" id="forumCards" >
                     <div class="card-body">
                         <p class="card-text">{{ $comment->content }}</p>
                         <p class="card-text">Posted by: {{ $comment->user ? $comment->user->name : 'Unknown' }}</p>
@@ -50,6 +51,7 @@
             <button type="submit" class="btn btn-primary">Submit Comment</button>
         </form>
     </div>
+</div>
 </section>
 </main>
 @endsection

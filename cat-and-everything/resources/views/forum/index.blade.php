@@ -15,7 +15,7 @@
   <div class="row">
     @foreach ($forums as $forum)
       <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
+        <div class="card h-100" id="forumCards">
           <!-- <img src="path/to/your-image.jpg" class="card-img-top" alt="Forum Image"> -->
           <div class="card-body">
             <h5 class="card-title">{{ $forum->title }}</h5>
