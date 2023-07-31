@@ -15,7 +15,7 @@
 
         <h1>Forum Details</h1>
 
-        <div class="card" id="forumCards" style="margin-top:60px ;">
+        <div class="card" id="forumCards" style="margin-top:60px; ">
             <div class="card-body">
                 <h5 class="card-title">{{ $forum->title }}</h5>
                 <p class="card-text">{{ $forum->description }}</p>

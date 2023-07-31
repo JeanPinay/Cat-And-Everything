@@ -11,7 +11,7 @@ class ForumController extends Controller
     {
         $forums = Forum::all();
 
-        return view('forum.index', compact('forums'));
+        return view('forum.index', compact('forums')); //forums is the table name from the database
     }
 
     public function create()
@@ -31,7 +31,7 @@ class ForumController extends Controller
         $forum->description = $request->description;
         $forum->save();
 
-        return redirect()->route('forums.index')->with('success', 'Forum created successfully.');
+        return redirect()->route('forums.index')->with('success', 'Posted successfully.');
     }
 
     public function show($id)
