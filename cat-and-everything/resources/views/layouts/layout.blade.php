@@ -42,7 +42,7 @@
 @yield ('forumForm')
 @yield ('forums')
 @yield ('show')
-@yield ('cats')
+@yield ('catsitting')
 @include ('layouts.footer')
 </body>
 </html>

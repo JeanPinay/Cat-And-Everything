@@ -1,5 +1,8 @@
 
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: rgba(252,223,135,255); ">
+<a class="navbar-brand" href="{{ route('homepage') }}">
+    <img src="{{ asset('images/homepage/LOGO1.png') }}" alt="Logo" width="110" height="110">
+  </a>
   <a class="nav-link" href="{{ route('homepage') }}">Home</a>
   <a class="nav-link" href="{{ route('homepage') }}">Cat Sitting</a>
   <a class="nav-link" href="{{ route('forums.index') }}">Forum</a>

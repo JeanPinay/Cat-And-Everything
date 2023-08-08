@@ -24,11 +24,6 @@ use App\Http\Controllers\CommentController;
 //homepage
 Route::get('/',[WelcomeController::class,'show'])->name('homepage');
 
-//footer
-Route::get('/contact', [ContactController::class, 'show'])->name('contact-us');
-Route::post('/contact-submitted', [ContactController::class, 'store'])->name('submitted');
-Route::get('/privacy-policy', [PrivacyPolicyController::class,'view'])->name('privacy-policy');
-
 //Route for articles
 Route::get('/signs',[SignController::class,'show'])->name('signs');
 Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
@@ -40,12 +35,18 @@ Route::middleware(['web', 'auth'])->group(function () {
     Route::post('/forums', [ForumController::class, 'store'])->name('forums.store');
     Route::get('/forums/{forum}', [ForumController::class, 'show'])->name('forums.show');
 });
-
 Route::post('/forums/{forum}/comments', [CommentController::class, 'store'])->name('comments.store');
 
+
+
+//footer
+Route::get('/contact', [ContactController::class, 'show'])->name('contact-us');
+Route::post('/contact-submitted', [ContactController::class, 'store'])->name('submitted');
+Route::get('/privacy-policy', [PrivacyPolicyController::class,'view'])->name('privacy-policy');
 
 //header
 Route::post('/logout', [LogoutController::class, 'perform'])->name('logout-route');
 Auth::routes();
+
 
 
