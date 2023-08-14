@@ -167,6 +167,7 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 }
 footer{
     flex-shrink: 0;
+    font-family:'Gagalin', sans-serif; ;
 }
 
 /* ================Contact=================== */
