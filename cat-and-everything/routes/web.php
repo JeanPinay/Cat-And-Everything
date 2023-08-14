@@ -8,6 +8,7 @@ use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\PrivacyPolicyController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\CatsittingController;
 
 
 
@@ -37,6 +38,8 @@ Route::middleware(['web', 'auth'])->group(function () {
 });
 Route::post('/forums/{forum}/comments', [CommentController::class, 'store'])->name('comments.store');
 
+//Route Cat sitting
+Route::get('/catsitting',[CatsittingController::class, 'showCatsitting'])->name('catsitting');
 
 
 //footer

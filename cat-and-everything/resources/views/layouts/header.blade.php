@@ -4,7 +4,7 @@
 <img src="{{ asset('images/homepage/LOGO2.png') }}" alt="Logo" width="120" height="65">
 </a>
   <a class="nav-link" href="{{ route('homepage') }}">Home</a>
-  <a class="nav-link" href="{{ route('homepage') }}">Cat Sitting</a>
+  <a class="nav-link" href="{{ route('catsitting') }}">Cat Sitting</a>
   <a class="nav-link" href="{{ route('forums.index') }}">Forum</a>
   <a class="nav-link" href="#">Shop</a>
   <a class="nav-link" href="{{ route('signs') }}">Zodiac</a>
