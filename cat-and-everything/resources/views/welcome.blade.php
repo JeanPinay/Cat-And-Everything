@@ -17,18 +17,18 @@
   <section class="py-5 text-center container">
     <h2 style="margin-bottom: 60px; margin-top: 40px; font-family: 'Gagalin', sans-serif; font-size:40px;">Feel free to explore and discover our website</h2>
     <div class="row">
-      <div class="col-md-6 col-lg-3 mb-4">
+    <div class="col-md-6 col-lg-3 mb-4">
         <div class="rounded-sides-container">
           <div class="rounded-sides">
-          <h5 class="card-title">Cat Astrology</h5>
-            <p class="card-text">Decode your pet's personality with the power of the zodiac. Based on a book from Stella Andromeda.
-              Answers all the burning questions you may have about your current or future cat/pet.
-              Fun and revealing!
+          <h5 class="card-title">Cat sitting</h5>
+            <p class="card-text">Going on a vacation? We have a solution for you. Leave your beloved feline in trusted hands with our professional cat sitting services,
+              providing attentive care and companionship while you're away.
             </p>
-            <a href="{{ route('signs') }}" class="btn btn-primary" id="text" >Zodiac Sign</a>
+            <a href="#" class="btn btn-primary" id="text">Read More</a>
           </div>
         </div>
       </div>
+     
 
       <div class="col-md-6 col-lg-3 mb-4">
         <div class="rounded-sides-container">
@@ -56,19 +56,18 @@
         </div>
       </div>
 
-
       <div class="col-md-6 col-lg-3 mb-4">
         <div class="rounded-sides-container">
           <div class="rounded-sides">
-          <h5 class="card-title">Cat sitting</h5>
-            <p class="card-text">Going on a vacation? We have a solution for you. Leave your beloved feline in trusted hands with our professional cat sitting services,
-              providing attentive care and companionship while you're away.
+          <h5 class="card-title">Cat Astrology</h5>
+            <p class="card-text">Decode your pet's personality with the power of the zodiac. Based on a book from Stella Andromeda.
+              Answers all the burning questions you may have about your current or future cat/pet.
+              Fun and revealing!
             </p>
-            <a href="#" class="btn btn-primary" id="text">Read More</a>
+            <a href="{{ route('signs') }}" class="btn btn-primary" id="text" >Zodiac Sign</a>
           </div>
         </div>
       </div>
-
 
     </div>
   </section>
@@ -88,6 +87,10 @@
         knowing I played a part in their journey. Fostering allows me to make a meaningful difference in the lives of these feline companions 
         while advocating for the importance of adoption over supporting pet stores or breeders.</p>
         <a href="#" class="btn btn-primary" id="text">Check it here</a>
+        <br>
+        <br>
+        <p>You can also check the shelter for adoption. Let's help the animals in need. </p>
+        
   </div>
 </div>
 </section>

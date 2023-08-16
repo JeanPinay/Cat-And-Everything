@@ -1,7 +1,8 @@
 @extends('layouts.layout')
 
 @section('content')
-    <div class="container" >
+<section class="home">
+    <div class="container" id="privacy" >
         <h1>Privacy Policy</h1>
         <p>
             This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit our website [Your Website URL] or use our services. Please read this Privacy Policy carefully. By accessing or using our website or services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Privacy Policy.
@@ -26,7 +27,6 @@
             <li>Email address</li>
             <li>Mailing address</li>
             <li>Phone number</li>
-            <li>Payment information</li>
         </ul>
 
         <h3>2. Non-Personal Information</h3>
@@ -95,5 +95,5 @@
             If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at contact.catandeverything@gmail.com.
         </p>
     </div>
-
+</section>
 @endsection

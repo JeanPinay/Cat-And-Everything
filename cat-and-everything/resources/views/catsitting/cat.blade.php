@@ -48,8 +48,9 @@
             <div class="circle-card">
                 <img src="{{asset('images/homepage/loginPaw2.png')}}" alt="Image 1">
             </div>
-            <h3>Give food and drinks</h3>
-            <p>"Many of life’s failures are people who did not realize how close they were to success when they gave up."– Thomas A. Edison</p>
+            <h3>Give food and water</h3>
+            <p>I take seriously my duty to feed and hydrate your cat with wholesome food and water. I follow their feeding schedule and provide them with the best meals that fit to their specific dietary needs and food preferences.
+                To make sure your cat stays hydrated and happy while in my care, fresh water is always accessible.</p>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="circle-card">
