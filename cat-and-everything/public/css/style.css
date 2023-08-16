@@ -323,3 +323,18 @@ form{
 #forumCards{
     background-color: #ffd2d2;
 }
+
+/* Cat sitting page */
+.circle-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 90px;
+}
+
+.circle-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

@@ -4,7 +4,7 @@
 
 <main class="home">
 <section class="py-5 text-center container">
-    <h2 style="margin-bottom: 60px; margin-top: 40px; font-family: 'Gagalin', sans-serif; font-size:40px;">Cat sitting service you can afford</h2>
+    <h2 style="margin-bottom: 60px; margin-top: 40px; font-family: 'Gagalin', sans-serif; font-size:40px;">Cat sitting service you can trust</h2>
 <div class="container mt-5">
     <div class="row">
       <div class="col-md-4">
@@ -40,6 +40,49 @@
       </div>
     </div>
   </div>
+</section>
+  <section class="py-5 text-center container">
+  <h2 style="margin-bottom: 60px; margin-top: 40px; font-family: 'Gagalin', sans-serif; font-size:40px;">Cat sitting service you can trust</h2>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="circle-card">
+                <img src="{{asset('images/homepage/loginPaw2.png')}}" alt="Image 1">
+            </div>
+            <h3>
+if you can't beat them, join them</h3>
+            <p>"Many of life’s failures are people who did not realize how close they were to success when they gave up."– Thomas A. Edison</p>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="circle-card">
+                <img src="{{asset('images/homepage/loginPaw2.png')}}" alt="Image 2">
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="circle-card">
+                <img src="{{asset('images/homepage/loginPaw2.png')}}" alt="Image 3">
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="circle-card">
+                <img src="{{asset('images/homepage/loginPaw2.png')}}" alt="Image 4">
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="circle-card">
+                <img src="{{asset('images/homepage/loginPaw2.png')}}" alt="Image 5">
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="circle-card">
+                <img src="{{asset('images/homepage/loginPaw2.png')}}" alt="Image 6">
+            </div>
+        </div>
+    </div>
+</div>
 </section>
 </main>
 @endsection
