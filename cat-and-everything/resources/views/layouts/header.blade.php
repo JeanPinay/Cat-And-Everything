@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-light"  style="background-color: rgba(252,223,135,255); ">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top "  style="background-color: rgba(252,223,135,255); ">
 <a class="navbar-brand" href="{{ route('homepage') }}">
 <img src="{{ asset('images/homepage/LOGO2.png') }}" alt="Logo" width="120" height="65">
 </a>

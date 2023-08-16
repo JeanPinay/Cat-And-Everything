@@ -149,11 +149,26 @@ box-shadow: -3px 6px 38px -6px rgba(38,14,38,1);
 
 }
 /* //header */
+/* .nav-link {
+    background-color: #FFB4B4;
+    font-family: 'Gagalin', sans-serif;
+    margin-right: 10px; /* Adjust the value as needed */
+/* } */ 
 .nav-link {
     background-color: #FFB4B4;
     font-family: 'Gagalin', sans-serif;
     margin-right: 10px; /* Adjust the value as needed */
+    padding: 8px 15px; /* Add padding to improve readability and appearance */
+    border-radius: 5px; /* Add rounded corners for a more button-like appearance */
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(34, 17, 17); /* Set text color to white for better contrast */
 }
+
+.nav-link:hover {
+    background-color: #FF8C8C; /* Change background color on hover */
+    color: rgb(115, 82, 199); /* Change text color on hover */
+}
+
 #footer{
     /* background-color: #C9A7EB; */
     background-color: rgba(252,223,135,255);
