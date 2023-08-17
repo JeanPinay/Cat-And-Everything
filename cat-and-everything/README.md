@@ -19,6 +19,7 @@
 📱 Responsive and mobile friendly
 💡 Post an article and comment to someone's post
 🔖 Book a cat sitter
+👜 Webshop
 
 
 
