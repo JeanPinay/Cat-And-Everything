@@ -37,7 +37,7 @@
 <body>
 @include ('layouts.header')
 @yield ('welcome')
-@yield ('content')
+@yield ('privacy')
 @yield ('signs')
 @yield ('contact')
 @yield ('privacy')

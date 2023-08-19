@@ -90,7 +90,7 @@
 <div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: rgba(252,223,135,255);">
 <div class="row py-lg-5">
     <div class="col-lg-9 col-md-8 mx-auto">
-    <h1 class="fw-light" style="font-family: 'Gagalin', sans-serif;">Adopt, don't shop!</h1>
+    <h1 class="fw-light" style="font-family: 'Gagalin', sans-serif;">Sit back and relax, your cat is taken care of</h1>
         <p class="card-text" id="adopt">
         As a foster mom for cats, I wholeheartedly believe in the mantra "adopt, don't shop." 
         By providing a loving and temporary home for cats in need, I contribute to their well-being and

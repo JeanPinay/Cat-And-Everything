@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('content')
+@section('privacy')
 <section class="home">
     <div class="container" id="privacy" >
         <h1>Privacy Policy</h1>
