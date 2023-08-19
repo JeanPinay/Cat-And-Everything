@@ -90,18 +90,18 @@
 <div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: rgba(252,223,135,255);">
 <div class="row py-lg-5">
     <div class="col-lg-9 col-md-8 mx-auto">
-    <h1 class="fw-light" style="font-family: 'Gagalin', sans-serif;">Sit back and relax, your cat is taken care of</h1>
+    <h1 class="fw-light" style="font-family: 'Gagalin', sans-serif;">Sit back and relax,your cat is taken care of</h1>
         <p class="card-text" id="adopt">
-        As a foster mom for cats, I wholeheartedly believe in the mantra "adopt, don't shop." 
+        As a foster mom for cats, I wholeheartedly believe in the mantra "adopt, don't shop."
         By providing a loving and temporary home for cats in need, I contribute to their well-being and
-        promote the importance of animal adoption. It brings me joy to see these cats find their forever homes, 
-        knowing I played a part in their journey. Fostering allows me to make a meaningful difference in the lives of these feline companions 
+        promote the importance of animal adoption. It brings me joy to see these cats find their forever homes,
+        knowing I played a part in their journey. Fostering allows me to make a meaningful difference in the lives of these feline companions
         while advocating for the importance of adoption over supporting pet stores or breeders.</p>
         <a href="#" class="btn btn-primary" id="text">Check it here</a>
         <br>
         <br>
         <p>You can also check the shelter for adoption. Let's help the animals in need. </p>
-        
+
 </div>
 </div>
 
