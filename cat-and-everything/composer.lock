@@ -4,8 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0ce5353653ac4aa921859375d213f73",
+    "content-hash": "3b7e6ee8d8dd1ccb192d0d61a3791fc5",
     "packages": [
+        {
+            "name": "apidoc/apidoc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/williamweber2/apidoc.git",
+                "reference": "8cdae24c9d3b15e665481155a8c3e8b067540a08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/williamweber2/apidoc/zipball/8cdae24c9d3b15e665481155a8c3e8b067540a08",
+                "reference": "8cdae24c9d3b15e665481155a8c3e8b067540a08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Documentation for API",
+            "support": {
+                "source": "https://github.com/williamweber2/apidoc/tree/master"
+            },
+            "time": "2014-09-26T18:43:47+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
@@ -8109,7 +8135,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "apidoc/apidoc": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
