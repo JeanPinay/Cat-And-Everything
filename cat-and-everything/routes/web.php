@@ -31,11 +31,12 @@ Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sig
 
 //Route Forum Routes that require authentication
 Route::middleware(['web', 'auth'])->group(function () {
-    Route::get('/forums', [ForumController::class, 'index'])->name('forums.index');
+    
+});
+Route::get('/forums', [ForumController::class, 'index'])->name('forums.index');
     Route::get('/forums/create', [ForumController::class, 'create'])->name('forums.create');
     Route::post('/forums', [ForumController::class, 'store'])->name('forums.store');
     Route::get('/forums/{forum}', [ForumController::class, 'show'])->name('forums.show');
-});
 Route::post('/forums/{forum}/comments', [CommentController::class, 'store'])->name('comments.store');
 
 //Route Cat sitting

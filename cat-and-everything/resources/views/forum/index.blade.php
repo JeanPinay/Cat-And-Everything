@@ -22,7 +22,7 @@
         <div class="card h-100" id="forumCards">
           <div class="card-body">
             <h5 class="card-title">{{ $forum->title }}</h5>
-            <p class="card-text">{{ $forum->description }}</p>
+
             <p class="card-text">Posted by: {{ $forum->user ? $forum->user->name : 'Unknown' }}</p>
             <a href="{{ route('forums.show', $forum->id) }}" class="btn btn-primary">View Forum</a>
           </div>
