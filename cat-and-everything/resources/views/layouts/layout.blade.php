@@ -44,6 +44,7 @@
 @yield ('forums')
 @yield ('show')
 @yield ('catsitting')
+@yield ('shop')
 @include ('layouts.footer')
 </body>
 </html>

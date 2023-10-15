@@ -5,6 +5,14 @@
 <section class="py-5 text-center container">
 <div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: rgba(252,223,135,255);">
     <div class="col-lg-9 col-md-8 mx-auto" >
+<h1 class="fw-light" style="font-family: 'Gagalin', sans-serif;">We are working on this page, so stay tuned!</h1>
+</div>
+</div>
+</section>
+
+<!-- <section class="py-5 text-center container">
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: rgba(252,223,135,255);">
+    <div class="col-lg-9 col-md-8 mx-auto" >
     <h1 class="fw-light" style="font-family: 'Gagalin', sans-serif;">Meow Forum</h1>
       <p class="lead my-3" style="color: #2C3333;">Here you can find informative articles or experiences/tips from people with feline and learn from it. You can share and answer question too.
     Feel free to express yourself as a cat person in this page.</p>
@@ -31,7 +39,7 @@
     @endforeach
   </div>
 </div>
-</section>
+</section> -->
 </main>
 @endsection
 

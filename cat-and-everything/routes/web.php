@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
+// use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\SignController;
 use App\Http\Controllers\ContactController;
@@ -30,9 +30,7 @@ Route::get('/signs',[SignController::class,'show'])->name('signs');
 Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
 
 //Route Forum Routes that require authentication
-Route::middleware(['web', 'auth'])->group(function () {
-    
-});
+
 Route::get('/forums', [ForumController::class, 'index'])->name('forums.index');
     Route::get('/forums/create', [ForumController::class, 'create'])->name('forums.create');
     Route::post('/forums', [ForumController::class, 'store'])->name('forums.store');
@@ -50,7 +48,7 @@ Route::get('/privacy-policy', [PrivacyPolicyController::class,'view'])->name('pr
 
 //header
 Route::post('/logout', [LogoutController::class, 'perform'])->name('logout-route');
-Auth::routes();
+
 
 
 

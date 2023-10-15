@@ -15,17 +15,8 @@ class CommentController extends Controller
     ]);
 
     $comment = new Comment;
-    $comment->content = $request->content;
-    if (auth()->check()) {
-        $comment->user_id = auth()->user()->id;
-    } else {
-        // Handle the case for unauthenticated users
-        $comment->user_id = null;
-        // You can also consider storing the comment with a default or guest user ID
-        // For example: $comment->user_id = 0;
-    }    
+    $comment->content = $request->content;   
     $forum->comments()->save($comment);
-    
 
     return redirect()->route('forums.show', $forum)->with('success', 'Comment added successfully.');
 }
