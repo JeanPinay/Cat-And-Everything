@@ -242,7 +242,7 @@ footer{
     border: 1px solid #66da4300;
     border-bottom: 1px solid #ff5900;
     background-color: transparent;
-    color: white;
+    color: #80728d;
   }
   
   .input::placeholder {
@@ -362,4 +362,13 @@ form{
     /* background-color: #ffd2d2; */
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+
+/* //-------circles ------------// */
+.circle-card {
+    transition: transform 0.3s ease;
+}
+.circle-card:hover {
+    transform: scale(1.1);
 }

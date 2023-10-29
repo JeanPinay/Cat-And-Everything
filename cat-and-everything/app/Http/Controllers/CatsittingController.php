@@ -9,4 +9,5 @@ class CatsittingController extends Controller
     public function showCatsitting(){
         return view('catsitting.cat');
     }
+    
 }

@@ -70,7 +70,7 @@
 </div>
 </div>
 
-    <div class="container mt-5">
+<div class="container mt-5">
     <div class="row">
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="circle-card" >
@@ -90,11 +90,53 @@
                 <img src="{{asset('images/catsitting/play2.png')}}" alt="Image 3">
             </div>
             <h5 class="card-title">Play, brush and cuddle</h5>
-
         </div>
-
     </div>
 </div>
 </section>
+
+<section class="py-5 text-center container">
+        <div class="p-4 p-md-5 mb-4 text-black rounded bg-light">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light display-4 fst-italic">Book a Cat Sitter</h1>
+            </div>
+        </div>
+        <div class="row p-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <form action="#" method="POST" class="booking-form">
+                    @csrf <!-- Security token for form submission -->
+                    <!-- Form inputs -->
+                    <div class="mb-3">
+                        <input class="form-control" type="text" name="fullName" placeholder="Full Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="email" name="emailAddress" placeholder="Email Address" required>
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="tel" name="contactNumber" placeholder="Contact Number" required>
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="text" name="address" placeholder="Your Address" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" name="specialInstructions" placeholder="Special Instructions"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="serviceDate" class="form-label">Preferred date and time:</label>
+                        <input class="form-control" type="date" name="serviceDate" id="serviceDate" required>
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="time" name="serviceTime" id="serviceTime" required>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary" type="submit">Book Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
 </main>
 @endsection
