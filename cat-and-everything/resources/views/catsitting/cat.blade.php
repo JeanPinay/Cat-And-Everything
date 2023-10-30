@@ -103,7 +103,7 @@
         </div>
         <div class="row p-5">
             <div class="col-lg-6 col-md-8 mx-auto">
-                <form action="#" method="POST" class="booking-form">
+                <form action="{{ route('book-cat-sitter') }}" method="POST" class="booking-form">
                     @csrf <!-- Security token for form submission -->
                     <!-- Form inputs -->
                     <div class="mb-3">

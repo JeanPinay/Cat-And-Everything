@@ -39,6 +39,8 @@ Route::post('/forums/{forum}/comments', [CommentController::class, 'store'])->na
 
 //Route Cat sitting
 Route::get('/catsitting',[CatsittingController::class, 'showCatsitting'])->name('catsitting');
+Route::post('/book-cat-sitter', [CatsittingController::class, 'bookCatSitter'])->name('book-cat-sitter');
+
 
 
 //footer
