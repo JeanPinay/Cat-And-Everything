@@ -9,6 +9,9 @@ use App\Http\Controllers\PrivacyPolicyController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\CatsittingController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ShopController;
 
 
 
@@ -41,6 +44,8 @@ Route::post('/forums/{forum}/comments', [CommentController::class, 'store'])->na
 Route::get('/catsitting',[CatsittingController::class, 'showCatsitting'])->name('catsitting');
 Route::post('/book-cat-sitter', [CatsittingController::class, 'bookCatSitter'])->name('book-cat-sitter');
 
+Route::get('/shop', [ShopController::class, 'showShop'])->name('shop');
+
 
 
 //footer
@@ -52,5 +57,15 @@ Route::get('/privacy-policy', [PrivacyPolicyController::class,'view'])->name('pr
 Route::post('/logout', [LogoutController::class, 'perform'])->name('logout-route');
 
 
+Route::middleware(['auth'])->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+    // Assuming you have a ProductController for handling product-related actions
+    Route::get('/dashboard/products', [ProductController::class, 'index'])->name('dashboard.products');
+    Route::get('/dashboard/products/create', [ProductController::class, 'create'])->name('dashboard.products.create');
+    Route::post('/dashboard/products', [ProductController::class, 'store'])->name('dashboard.products.store');
+    // Add more routes as needed
+});
 
 
+require __DIR__.'/auth.php';

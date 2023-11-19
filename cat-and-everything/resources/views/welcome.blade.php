@@ -38,7 +38,7 @@
                 You can do that here without being judged. This website is made for you to show love to fellow cat lover, let's help each other.
                 Don't forget to register first!
             </p>
-            <a href="{{ route('forums.index') }}" class="btn btn-primary" id="text" >Click here</a>
+            <a href="{{ route('forums.index') }}" class="btn btn-primary" id="text">Click here</a>
           </div>
         </div>
       </div>
@@ -51,7 +51,8 @@
             <p class="card-text">We are selling things for your cat and you! Explore our shop and discover a world of feline delights, 
               where you can indulge your beloved pet with high-quality items designed to bring them joy and comfort. Free delivery around Antwerp.
             </p>
-            <a href="#" class="btn btn-primary" id="text" >Shop now</a>
+
+            <a href="{{ route('shop') }}" class="btn btn-primary" id="text">Shop now</a>
           </div>
         </div>
       </div>

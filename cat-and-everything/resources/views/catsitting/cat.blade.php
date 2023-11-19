@@ -73,22 +73,22 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-6 col-lg-4 mb-4">
-            <div class="circle-card" >
+            <!-- <div class="circle-card" >
                 <img src="{{asset('images/catsitting/catFood2.png')}}" alt="Image 1">
-            </div>
+            </div> -->
             <h5 class="card-title">Give food, water and medication</h5>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
-            <div class="circle-card">
+            <!-- <div class="circle-card">
                 <img src="{{asset('images/catsitting/litter2.png')}}" alt="Image 2">
-            </div>
+            </div> -->
             <h5 class="card-title">Clean the litterbox</h5>
 
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
-            <div class="circle-card">
+            <!-- <div class="circle-card">
                 <img src="{{asset('images/catsitting/play2.png')}}" alt="Image 3">
-            </div>
+            </div> -->
             <h5 class="card-title">Play, brush and cuddle</h5>
         </div>
     </div>
@@ -98,7 +98,7 @@
 <section class="py-5 text-center container">
         <div class="p-4 p-md-5 mb-4 text-black rounded bg-light">
             <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light display-4 fst-italic">Book a Cat Sitter</h1>
+                <h1 class="fw-light display-4 fst-italic">Book a Cat sitter</h1>
             </div>
         </div>
         <div class="row p-5">
