@@ -4,7 +4,7 @@
 😺I am a cat mom and want to do cat sitting job in my free time. I made this website to show how I love cats and how I am eager to help other cat mom like me. This is a website where you read about Cat Astrology, book a cat sitter, postor read in a forum page and a mini webshop for your feline. 
 
 
-# Programming languanges and Skills
+# Programming languages and Skills
 🐈 Laravel 
 🐝 Bootstrap
 ⚡ Css
