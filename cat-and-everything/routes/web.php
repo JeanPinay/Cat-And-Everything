@@ -66,6 +66,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/dashboard/products', [ProductController::class, 'store'])->name('dashboard.products.store');
     // Add more routes as needed
 });
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 
 require __DIR__.'/auth.php';

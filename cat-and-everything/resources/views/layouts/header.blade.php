@@ -15,6 +15,9 @@
         <a class="nav-link" href="#">Shop</a>
         <a class="nav-link" href="{{ route('signs') }}">Cat Astrology</a>
 
+        @if(auth()->check() && auth()->user()->isAdmin()) <!-- Check if the user is logged in and is an admin -->
+        <a href="{{ route('dashboard') }}" class="nav-link">Dashboard</a>
+    @endif
         <!-- Authentication Links -->
         @guest
             <a class="nav-link" href="{{ route('login') }}">Login</a>
